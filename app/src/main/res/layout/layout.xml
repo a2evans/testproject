@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hi everyone!"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#dc2b2b" />
+</LinearLayout>
